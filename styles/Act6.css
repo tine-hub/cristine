@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'arial', sans-serif;
+  background-color: #ffe6f2;
+  color: #4d004d;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff0f5;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #cc0066;
+  margin-bottom: 20px;
+}
+.student-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+thead {
+  background-color: #ffccff;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ff99cc;
+}
+th {
+  color: #800080;
+}
+tbody tr:nth-child(even) {
+  background-color: #ffe6ff;
+}
+tbody tf:hover {
+  background-color: #ffb3d9;
+}
